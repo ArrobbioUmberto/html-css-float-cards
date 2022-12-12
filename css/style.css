@@ -12,13 +12,15 @@ header, main{
 }
 h1{
     color:pink;
-    font-family: 'Bungee', cursive;}
+    font-family: 'Bungee', cursive;
+    margin: 20px 0;
+}
 .box{
     width: 300px;
     height: 100px;
     float: left;
     margin: 30px 14px;
-    box-shadow: 100px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 .clearfix::after{
     content: "";
